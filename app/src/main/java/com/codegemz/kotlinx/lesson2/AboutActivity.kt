@@ -35,7 +35,7 @@ class AboutView : AnkoComponent<AboutActivity> {
                 textSize = 18f
             }.lparams(width = wrapContent) {
                 gravity = Gravity.CENTER_HORIZONTAL
-                topMargin = dip(30)
+                topMargin = dip(50)
             }
 
             about = textView {
